@@ -1,0 +1,119 @@
+<html lang="de">
+<head>
+<title>Pipos erste Website </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="gfx/favicon.ico">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header id="img_header">
+	<img src="img/header_img.jpg" title="I am an IRONMAN" alt="Tichy Ironman Austria 2022" width=980 height=auto />
+	</header>
+    <section>
+    	<nav id="mainnav">
+      		<ul>
+            	<li>
+                	<a href="index.html" title="Pipos Website" >
+                    Startseite
+                    </a>
+                </li>
+                <li>
+                	<a href="erfolge.html" title="Erfolge" >
+                 	Erfolge
+                 	</a>
+                </li>
+								<li>
+                	<a href="coaching.html" title="Coaching" >
+                 	Coaching
+                 	</a>
+                </li>
+								<li>
+									<a href="galerie.html" title="Galerie" >
+									Galerie
+									</a>
+								</li>
+								<li>
+									<a href="renntempo-kalkulator.html" title="Renntempo-Kalkulator" >
+									Renntempo-Kalkulator
+									</a>
+								</li>
+								<li>
+									<a href="DrTichy.html" title="Lilli" >
+									Lilli
+									</a>
+								</li>
+								<li>
+									<a href="Wieallesbegann.html" title="Wie alles begann" >
+									Wie alles begann
+									</a>
+								</li>
+							</ul>
+        </nav>
+			</br>
+				<h1> Checke hier dein Potenzial für das nächste Race: </h1>
+			</br>
+
+
+			<div class="textstyle4">
+			<div>
+				<script type='text/javascript'>
+
+		let potenzial1_name = '    Potenzial 10km ➡️';
+		let potenzial1_kurs = 2.2;
+
+		function initCurrForm() {
+			document.write('05km Zeit ➡️ <input type="text" id="curr_euro" size="10" onkeyup="convert()" />'+potenzial1_name+' <input type="text" id="curr_foreign" size="10" />');
+		}
+		function convert()
+		{
+		let	x = document.getElementById('curr_euro').value * potenzial1_kurs;
+			document.getElementById ('curr_foreign').value = Math.round(x*100)/100;
+		}
+		</script>
+		<script type="text/javascript">initCurrForm();</script>
+
+
+		</br>
+		</br>
+	</div>
+	<div>
+		<script type='text/javascript'>
+
+	let potenzial_name = '    Potenzial 21km ➡️';
+	let potenzial_kurs = 2.21;
+
+	function initCurrForm() {
+	document.write('10km Zeit ➡️ <input type="text" id="10km" size="10" onkeyup="convert()" />'+potenzial_name+' <input type="text" id="21km" size="10" />');
+	}
+	function convert()
+	{
+	let x = document.getElementById('10km').value * potenzial_kurs;
+	document.getElementById('21km').value = Math.round(x*100)/100;
+	}
+	</script>
+
+	<script type="text/javascript">initCurrForm();</script>
+
+	</div>
+
+
+	</div>
+<br />
+
+</div>
+
+		</section>
+			</br>
+			</br>
+	<footer>
+    	<p class=textstylefooter>
+         	Philipp Tichy </br>
+			 		Tel: 0650/8420974 </br>
+				 	<a href="mailto:philipptichy@hotmail.com"> MAIL TO: philipptichy@hotmail.com </a>
+				</p>
+
+    </footer>
+</body>
+</html>

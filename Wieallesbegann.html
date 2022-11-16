@@ -1,0 +1,187 @@
+<html lang="de">
+<head>
+<title>Pipos erste Website </title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" type="image/x-icon" href="gfx/favicon.ico">
+<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+	<header id="img_header">
+		<img src="img/bild134_img.jpg" title="Praterlauf" alt="Praterlauf mit Wallner" width=980 height=653 />
+	</header>
+    <section>
+    	<nav id="mainnav">
+      		<ul>
+								<li>
+                <a href="index.html" title="Pipos Website" >
+                    Startseite
+                    </a>
+                </li>
+                <li>
+                	<a href="erfolge.html" title="Erfolge" >
+                 	Erfolge
+                 	</a>
+                </li>
+								<li>
+                	<a href="coaching.html" title="Coaching" >
+                 	Coaching
+                 	</a>
+                </li>
+								<li>
+									<a href="galerie.html" title="Galerie" >
+									Galerie
+									</a>
+								</li>
+								<li>
+									<a href="renntempo-kalkulator.html" title="Renntempo-Kalkulator" >
+									Renntempo-Kalkulator
+									</a>
+								</li>
+								<li>
+									<a href="DrTichy.html" title="Lilli" >
+									Lilli
+									</a>
+								</li>
+								<li>
+									<a href="Wieallesbegann.html" title="Wie alles begann" >
+									Wie alles begann
+									</a>
+								</li>
+							</div>
+            </ul>
+        </nav>
+				<h2 class="textstyle3"> Trainingsaufzeichnungen 2006 - 2008 </h2>
+		 </div>
+			 <p class="textstyle2"> Don't try this at home...aber durchklicken ist erlaubt 😜​ </p>
+
+			 <style>
+			 * {
+			   box-sizing: border-box;
+			 }
+
+			 body {
+			   margin: 0;
+			   font-family: Arial;
+			 }
+
+			 /* The grid: Four equal columns that floats next to each other */
+			 .column {
+			   text-align: center;
+				 float: left;
+			   width: 5%;
+			   padding: 3px;
+				 justify-content: center;
+				 margin-left: 20px;
+			 }
+
+			 /* Style the images inside the grid */
+			 .column img {
+			   opacity: 0.8;
+			   cursor: pointer;
+			 }
+
+
+			 .column img:hover {
+			   opacity: 1;
+			 }
+
+
+			 /* Clear floats after the columns */
+			 .row:after {
+			   content: "";
+			   display: table;
+			   clear: both;
+				 text-decoration-color: green;
+
+			 }
+
+			 </style>
+			 </head>
+			 <body>
+
+			 <!-- The  columns -->
+			 <div class="row">
+			   <div class="column">
+			     <img src="img/bild136_img.jpg" title="2006 Teil 1" style="width:50%" onclick="myFunction(this);" onclick="zwyFunction(this);" >
+			   </div>
+			   <div class="column">
+			     <img src="img/bild149_img.jpg" title="2006 Teil 2" style="width:50%" onclick="myFunction(this);">
+			   </div>
+			   <div class="column">
+			     <img src="img/bild137_img.jpg" title="2006 Teil 3"  style="width:50%" onclick="myFunction(this);">
+			   </div>
+			   <div class="column">
+			     <img src="img/bild138_img.jpg" title="2006 und Anfang 2007" style="width:50%" onclick="myFunction(this);">
+			   </div>
+				 <div class="column">
+			     <img src="img/bild139_img.jpg" title= "2007 Teil 1" style="width:50%" onclick="myFunction(this);">
+			   </div>
+			   <div class="column">
+			     <img src="img/bild140_img.jpg" title="2007 Teil 2" style="width:50%" onclick="myFunction(this);">
+			   </div>
+			   <div class="column">
+			     <img src="img/bild141_img.jpg"  title="2007 Teil 3"style="width:50%" onclick="myFunction(this);">
+			   </div>
+			   <div class="column">
+			     <img src="img/bild142_img.jpg" title="2007 Teil 4" style="width:50%" onclick="myFunction(this);">
+			   </div>
+				 <div class="column">
+					<img src="img/bild143_img.jpg"  title="2007 Teil 5" style="width:50%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+					<img src="img/bild144_img.jpg" title="2007 Teil 6" style="width:50%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+					<img src="img/bild145_img.jpg" title="2007 und Anfang 2008" style="width:50%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+					<img src="img/bild146_img.jpg" title="2008 Teil 1" style="width:50%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+					<img src="img/bild147_img.jpg" title="2008 Teil 2" style="width:50%" onclick="myFunction(this);">
+				</div>
+				<div class="column">
+					<img src="img/bild148_img.jpg" title="2008 Teil 3" style="width:50%" onclick="myFunction(this);">
+				</div>
+			 </div>
+		 	</br>
+			</br>
+			 <div>
+
+			   <img id="expandedImg" style="width:100%" >
+			   <div id="imgtext"></div>
+			 </div>
+
+		 <script>
+			 function myFunction(imgs) {
+			   let expandImg = document.getElementById("expandedImg");
+			   let imgText = document.getElementById("imgtext");
+			   expandImg.src = imgs.src;
+				 imgText.innerHTML = img.alt;
+
+			   expandImg.parentElement.style.display = "block";
+			 }
+			 </script>
+
+			 <script>
+			 function zwyFunction(imgs) {
+				 let img.src = 🧐;
+			 }
+			 </script>
+
+			 </body>
+    </section>
+ </br>
+</br>
+	<footer>
+    	<p class=textstylefooter>
+         	Philipp Tichy </br>
+			 		Tel: 0650/8420974 </br>
+				 	<a href="mailto:philipptichy@hotmail.com"> MAIL TO: philipptichy@hotmail.com </a>
+				</p>
+
+    </footer>
+</body>
+</html>
